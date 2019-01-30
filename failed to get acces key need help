@@ -1,0 +1,32 @@
+im using the newest version of vortex
+whenever i try to login and click "log in on website" it imediately gives me an error saying "failed to get acces key"
+no matter what game i try to have it manage
+everything is fine on the nexus im logged in and everything
+when i click on more and show details it shows me what i pasted below
+
+Error: unable to verify the first certificate
+    at TLSSocket.<anonymous> (_tls_wrap.js:1103:38)
+    at emitNone (events.js:106:13)
+    at TLSSocket.emit (events.js:208:7)
+    at TLSSocket._finishInit (_tls_wrap.js:637:8)
+    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:467:38)
+Request Stack:
+Error
+    at WebSocket (C:\Program Files\Black Tree Gaming Ltd\Vortex\resources\app.asar\webpack:\src\extensions\nexus_integration\index.tsx:219:20)
+    at EventEmitter.api (C:\Program Files\Black Tree Gaming Ltd\Vortex\resources\app.asar\webpack:\src\extensions\nexus_integration\index.tsx:382:3)
+    at emitOne (events.js:116:13)
+    at EventEmitter.emit (events.js:211:7)
+    at this (C:\Program Files\Black Tree Gaming Ltd\Vortex\resources\app.asar\webpack:\src\extensions\nexus_integration\views\LoginDialog.tsx:37:16)
+    at Object.ia (C:\Program Files\Black Tree Gaming Ltd\Vortex\resources\app.asar\node_modules\react-dom\cjs\react-dom.production.min.js:15:131)
+    at Object.invokeGuardedCallback (C:\Program Files\Black Tree Gaming Ltd\Vortex\resources\app.asar\node_modules\react-dom\cjs\react-dom.production.min.js:16:137)
+    at Object.invokeGuardedCallbackAndCatchFirstError (C:\Program Files\Black Tree Gaming Ltd\Vortex\resources\app.asar\node_modules\react-dom\cjs\react-dom.production.min.js:16:249)
+    at za (C:\Program Files\Black Tree Gaming Ltd\Vortex\resources\app.asar\node_modules\react-dom\cjs\react-dom.production.min.js:20:288)
+    at Da (C:\Program Files\Black Tree Gaming Ltd\Vortex\resources\app.asar\node_modules\react-dom\cjs\react-dom.production.min.js:22:148)
+    at Fa (C:\Program Files\Black Tree Gaming Ltd\Vortex\resources\app.asar\node_modules\react-dom\cjs\react-dom.production.min.js:22:335)
+    at Ba (C:\Program Files\Black Tree Gaming Ltd\Vortex\resources\app.asar\node_modules\react-dom\cjs\react-dom.production.min.js:21:248)
+    at Ia (C:\Program Files\Black Tree Gaming Ltd\Vortex\resources\app.asar\node_modules\react-dom\cjs\react-dom.production.min.js:24:79)
+    at Ja (C:\Program Files\Black Tree Gaming Ltd\Vortex\resources\app.asar\node_modules\react-dom\cjs\react-dom.production.min.js:24:244)
+    at Hd (C:\Program Files\Black Tree Gaming Ltd\Vortex\resources\app.asar\node_modules\react-dom\cjs\react-dom.production.min.js:88:254)
+    at ci (C:\Program Files\Black Tree Gaming Ltd\Vortex\resources\app.asar\node_modules\react-dom\cjs\react-dom.production.min.js:222:195)
+    
+    please help i have no idea how to fix this nexus isnt helping
